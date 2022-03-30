@@ -10,12 +10,18 @@ class Student():
 def print_student(student):
     print(f"Student : {student.first_nane} {student.last_name}, promoted : {student.promoted}")
 
+def promoted_student(student):
+    student.promoted = True
+
 def run_example():
     student = Student(first_nane="Ola", last_name="Nowak")
     print_student(student)
 
     other_student = Student("Jerzy","Jurkowski")
     print_student(other_student)
+
+    promoted_student(student)
+    print_student(student)
 
 if __name__ == '__main__':
     run_example()

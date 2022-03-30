@@ -23,9 +23,9 @@ def promoted_student(student):
 
 # Funkcja może zwracać obiekty
 def creata_school_with_students(school_name):
-    numbers_of_students = random.randint(1,20)
+    number_of_students = random.randint(1,20)
     students = []
-    for student_number in range(numbers_of_students):
+    for student_number in range(number_of_students):
         first_name = f"Student-{student_number}"
         last_name = "Smith"
         students.append(Student(first_name,last_name))

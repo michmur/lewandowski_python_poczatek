@@ -1,9 +1,5 @@
 class Student():
 
-    # Konstruktor zostanie wywołany podczas tworzenia obiektu
-    # def __init__(self) -> None:
-    #     print("Powstaje nowy obiekt!")
-
     # Zadaniem konstruktora jest zdefiniować i zainicjować stan obiketu
     def __init__(self) -> None:
         self.first_nane = "Mikołaj"
